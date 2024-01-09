@@ -402,7 +402,7 @@ body {
 
 }
 
-.input_1 {
+#input_1 {
     border-radius: 50px;
     background: #FFF;
 
@@ -574,4 +574,17 @@ width: 300px;
 .con_6 {
     position: relative;
     top: 50px;
+}
+
+
+.centered-input  {
+    width: 200px;
+    padding: 1px;
+    text-align: center; /* Center the text inside the input */
+}
+
+.centered-input::placeholder {
+    text-align: center; /* Center the placeholder text */
+    color: #999; /* Optional: Set the color of the placeholder text */
+
 }
